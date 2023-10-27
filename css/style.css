@@ -1,4 +1,9 @@
 /****** General ***********/
+
+/*Importation de la font Raleway Regular 400 et Bold 700*/
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+
 * {
     font-family: 'Raleway', sans-serif;
 }
