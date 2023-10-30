@@ -62,6 +62,30 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ***********/
+
+.heroappBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.notice {
+    display: flex;
+    flex-direction: column;
+}
+
+.appBar__info {
+    display: flex;
+    flex-direction: row;
+}
+
+.heroappBar__logo {
+    height:19px;
+    width: 61.09px;
+}
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
