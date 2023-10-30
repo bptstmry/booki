@@ -1,8 +1,5 @@
 /****** General ***********/
 
-/*Importation de la font Raleway Regular 400 et Bold 700*/
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
-
 * {
     font-family: 'Raleway', sans-serif;
 }
@@ -11,6 +8,14 @@
     --main-color: #0065FC;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
+
+    --information-font-weight: 400;
+    --title-font-weight: 700;
+
+    --information-font-size: 16px;
+    --section-font-size: 22px;
+    --card-font-size: 16px;
+
 }
 
 .fa-solid {
@@ -20,6 +25,9 @@
 body {
     display: flex;
     justify-content: center;
+    margin:0px; 
+    padding:0px; 
+    border:0px;
 }
 
 .main-container {
@@ -83,9 +91,27 @@ a {
 .heroappBar__logo {
     height:19px;
     width: 61.09px;
-    padding: 30px 50px;
+    padding: 30px 50px 30px 0px;
 }
 
+.heroappBar__nav {
+    padding: 0px 50px 0px 50px;
+    font-weight: var(--information-font-weight);
+    font-size: var(--information-font-size);
+    display: flex;
+    gap: 68px;
+}
+
+.heroappBar__navItem {
+    display: block;
+    padding-top: 16px;
+}
+
+.heroappBar__navItem:hover {
+    color: var(--main-color);
+    border-top: 2px solid;
+    padding-top: 14px; 
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
