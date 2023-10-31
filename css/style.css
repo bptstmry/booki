@@ -133,8 +133,62 @@ a {
     font-weight: var(--information-font-weight);
     margin: 0px;
 }
+/*** searchBar ***/
 
-/*** filerBar ***/
+.searchBar {
+    display: flex;
+    border: none;
+    height: 49px;
+  }
+  
+  .searchBar__location__logo {
+    width: 50px;
+    border-radius: 15px 0px 0px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F2F2;
+  }
+  
+  .fa-location-dot {
+    color: black;
+  }
+  
+  .searchBar input[type="search"] {
+    font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+      font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    border-color: #F2F2F2;
+  }
+  
+  .searchBar input[type="button"]  {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+    font-size: 18px;
+    background-color: #0065FC;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 132px;
+    border-radius: 0px 15px 15px 0px;
+  border: none;
+  }
+
+
+
+
+
+
+/*** filterBar ***/
 
 .filterBar_info {
     display: flex;
