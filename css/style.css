@@ -139,61 +139,111 @@ a {
     display: flex;
     border: none;
     height: 49px;
-  }
+    padding-bottom: 35px;
+}
   
-  .searchBar__location__logo {
+.searchBar__location__logo {
     width: 50px;
     border-radius: 15px 0px 0px 15px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F2F2F2;
-  }
+    background-color: var(--main-bg-color);
+    cursor: pointer;
+}
   
-  .fa-location-dot {
+.fa-location-dot {
     color: black;
-  }
+}
   
-  .searchBar input[type="search"] {
-    font-family: 'Raleway', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-      font-size: 18px;
+.searchBar input[type="search"] {
+    font-weight: var(--title-font-weight);
+    font-size: var(--information-font-size);
     text-align: center;
     display: inline-block;
     border: none;
     border-top: solid 1px;
     border-bottom: solid 1px;
-    border-color: #F2F2F2;
-  }
+    border-color: var(--main-bg-color);
+}
   
-  .searchBar input[type="button"]  {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-    font-size: 18px;
-    background-color: #0065FC;
+.searchBar input[type="button"]  {
+    font-weight: var(--title-font-weight);
+    font-size: var(--information-font-size);
+    background-color: var(--main-color);
     color: white;
     display: flex;
     justify-content: center;
     width: 132px;
     border-radius: 0px 15px 15px 0px;
-  border: none;
-  }
-
-
-
-
-
+    border: none;
+    cursor: pointer;
+}
 
 /*** filterBar ***/
 
-.filterBar_info {
+.filterBar {
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: column;
+    gap: 35px;
+  }
+  .filterBar__nav {
+    display: flex;
+    gap: 15px;
+    height: 50px;
+  }
+  
+  .filterBar__nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: var(--title-font-weight);
+  }
+  
+  .filterBar__nav button {
+    font-size: 17px;
+    font-weight: var(--title-font-weight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid 2px;
+    border-color: #D9D9D9;
+    background-color: white;
+    border-radius: 25px;
+    padding: 4px 19px;
+  }
+
+  .filterBar__nav button:hover {
+    background-color: #DEEBFF;
+    cursor: pointer;
+  }
+  
+  .filterBar__nav i {
+    color: var(--main-color)
+  }
+  
+  .filterBar__info {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 35px;
+  }
+  .filterBar__info i {
+    height: 24px;
+    width: 26px;
+    border-radius: 50px;
+    border: solid 2px;
+    border-color: #D9D9D9;
+    text-align: center;
+    padding-top: 3px;
+    color: var(--main-color);
+    display: block;
+    position: relative;
+    top: 10px;
+  }
 
 
 
