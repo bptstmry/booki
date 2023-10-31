@@ -72,46 +72,78 @@ a {
 
 /****** Header ***********/
 
-.heroappBar {
+/*** frame ***/
+
+.frame {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 79px;
 }
 
-.notice {
-    display: flex;
-    flex-direction: column;
-}
-
-.appBar__info {
-    display: flex;
-    flex-direction: row;
-}
-
-.heroappBar__logo {
+.frame__logo {
     height:19px;
     width: 61.09px;
     padding: 30px 50px 30px 0px;
 }
 
-.heroappBar__nav {
-    padding: 0px 50px 0px 50px;
+.frame__menu {
+    padding: 0px 0px 0px 50px;
     font-weight: var(--information-font-weight);
     font-size: var(--information-font-size);
     display: flex;
     gap: 68px;
 }
 
-.heroappBar__navItem {
+.menu__button {
     display: block;
     padding-top: 16px;
+    height: 20px;
 }
 
-.heroappBar__navItem:hover {
+.menu__button:hover {
     color: var(--main-color);
     border-top: 2px solid;
     padding-top: 14px; 
 }
+
+/*** headline ***/
+
+.headline {
+    display: flex;
+    flex-direction: column;
+}
+
+.headline {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.headline__title {
+    font-weight: var(--title-font-weight);
+    font-size: var(--section-font-size);
+    margin: 0px;
+}
+
+.headline__subtitle {
+    font-size: var(--information-font-size);
+    font-weight: var(--information-font-weight);
+    margin: 0px;
+}
+
+/*** filerBar ***/
+
+.filterBar_info {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
