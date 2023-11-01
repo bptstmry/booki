@@ -85,13 +85,12 @@ a {
 }
 
 .frame__logo {
-    height:19px;
     width: 61.09px;
-    padding: 30px 50px 30px 0px;
+    margin: 30px 50px 30px 0px;
 }
 
 .frame__menu {
-    padding: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 50px;
     font-weight: var(--information-font-weight);
     font-size: var(--information-font-size);
     display: flex;
@@ -102,6 +101,7 @@ a {
     display: block;
     padding-top: 16px;
     height: 20px;
+    transition: color 0.3s;
 }
 
 .menu__button:hover {
@@ -118,23 +118,23 @@ a {
 }
 
 .headline {
-    padding-top: 30px;
-    padding-bottom: 35px;
+    margin: 30px 0 35px 0;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.headline__title {
-    font-weight: var(--title-font-weight);
-    font-size: var(--section-font-size);
+.headline h1, p {
     margin: 0px;
 }
+.headline h1 {
+    font-weight: var(--title-font-weight);
+    font-size: var(--section-font-size);
+}
 
-.headline__subtitle {
+.headline p {
     font-size: var(--information-font-size);
     font-weight: var(--information-font-weight);
-    margin: 0px;
 }
 /*** searchBar ***/
 
@@ -142,7 +142,7 @@ a {
     display: flex;
     border: none;
     height: 49px;
-    padding-bottom: 35px;
+    margin-bottom: 35px;
 }
   
 .searchBar__location__logo {
@@ -218,6 +218,7 @@ a {
     background-color: white;
     border-radius: 25px;
     padding: 4px 19px;
+    transition: background-color 0.3s;
   }
 
   .filterBar__nav button:hover {
@@ -245,7 +246,7 @@ a {
     color: var(--main-color);
     display: block;
     position: relative;
-    top: 10px;
+    top: -5px;
   }
 
 /****** Hebergements And Populaires ***********/
@@ -253,6 +254,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin-bottom: 35px;
+    gap: 40px;
 }
 
 .hebergements-and-populaires section {
@@ -269,7 +271,7 @@ a {
 
 .hebergements-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -315,11 +317,15 @@ a {
     margin-bottom: 15px;
 }
 
-.more__subtitle {
+.more a {
     height: 21px;
     width: 100%;
     margin-top: 30px;
     margin-bottom: 0px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline-block
 }
 /****** Populaires ***********/
 .populaires {
@@ -414,12 +420,33 @@ a {
 }
 
 .activites-cards .card-title {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 19px;
-    margin-right: 19px;
+    margin: 20px 19px 20px 19px;
 }
 
+/****** Footer ***********/
+
+.section-footer {
+    background-color: var(--main-bg-color);
+    display:flex;
+    justify-content: space-between;
+}
+.a-propos {
+    padding: 20px 20px 20px 20px;
+    width: 100%;
+}
+.column-list li {
+    list-style-type: none;
+}
+
+.column-list {
+    padding: 0 20px 0 20px;
+    width: 100%;
+}
+
+ul {
+    padding: 0;
+    margin: 15px;
+  }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
