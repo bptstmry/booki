@@ -14,6 +14,7 @@ MM.    `7MMF'8M""""""   MM    MM  8M""""""   MM      ,pm9MM    MM
 
 * {
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -375,7 +376,6 @@ a {
 }
 
 /****** Populaires ***********/
-
 .populaires {
     width: 32%;
     background-color: var(--main-bg-color);
