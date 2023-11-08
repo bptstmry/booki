@@ -1,4 +1,16 @@
-/****** General ***********/
+/*
+                                                                   
+                                                               ,,  
+  .g8"""bgd                                                  `7MM  
+.dP'     `M                                                    MM  
+dM'       `   .gP"Ya  `7MMpMMMb.   .gP"Ya  `7Mb,od8  ,6"Yb.    MM  
+MM           ,M'   Yb   MM    MM  ,M'   Yb   MM' "' 8)   MM    MM  
+MM.    `7MMF'8M""""""   MM    MM  8M""""""   MM      ,pm9MM    MM  
+`Mb.     MM  YM.    ,   MM    MM  YM.    ,   MM     8M   MM    MM  
+  `"bmmmdPY   `Mbmmd' .JMML  JMML. `Mbmmd' .JMML.   `Moo9^Yo..JMML.
+                                                                   
+                                                                   
+*/
 
 * {
     font-family: 'Raleway', sans-serif;
@@ -73,7 +85,19 @@ a {
     color: var(--main-bg-color)
 }
 
-/****** Header ***********/
+/*
+                                                             
+                                       ,,                    
+`7MMF'  `7MMF'                       `7MM                    
+  MM      MM                           MM                    
+  MM      MM   .gP"Ya   ,6"Yb.    ,M""bMM   .gP"Ya  `7Mb,od8 
+  MMmmmmmmMM  ,M'   Yb 8)   MM  ,AP    MM  ,M'   Yb   MM' "' 
+  MM      MM  8M""""""  ,pm9MM  8MI    MM  8M""""""   MM     
+  MM      MM  YM.    , 8M   MM  `Mb    MM  YM.    ,   MM     
+.JMML.  .JMML. `Mbmmd' `Moo9^Yo. `Wbmd"MML. `Mbmmd' .JMML.   
+                  
+
+*/
 
 /*** frame ***/
 
@@ -120,17 +144,13 @@ a {
 .headline {
     display: flex;
     flex-direction: column;
-}
-
-.headline {
-    display: flex;
-    flex-direction: column;
     gap: 8px;
 }
 
 .headline h1, p {
     margin: 0px;
 }
+
 .headline h1 {
     font-weight: var(--title-font-weight);
     font-size: var(--section-font-size);
@@ -189,6 +209,7 @@ a {
 .btn {
     display: none;
 }
+
 /*** filterBar ***/
 
 .filterBar {
@@ -197,20 +218,21 @@ a {
     align-items: center;
     gap: 15px;
   }
-  .filterBar__nav {
+
+.filterBar__nav {
     display: flex;
     gap: 15px;
     height: 50px;
-  }
+}
   
-  .filterBar a {
+.filterBar a {
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-weight: var(--title-font-weight);
-  }
+}
   
-  .filterBar__nav button {
+.filterBar__nav button {
     font-size: 17px;
     font-weight: var(--title-font-weight);
     display: flex;
@@ -223,23 +245,24 @@ a {
     border-radius: 25px;
     padding: 4px 19px;
     transition: background-color 0.3s;
-  }
+}
 
-  .filterBar__nav button:hover {
+.filterBar__nav button:hover {
     background-color: #DEEBFF;
     cursor: pointer;
-  }
+}
   
-  .filterBar__nav i {
+.filterBar__nav i {
     color: var(--main-color);
-  }
+}
   
-  .filterBar__info {
+.filterBar__info {
     display: flex;
     flex-direction: rows;
     gap: 10px;
-  }
-  .filterBar__info i {
+}
+
+.filterBar__info i {
     height: 24px;
     width: 25px;
     border-radius: 50px;
@@ -255,7 +278,21 @@ a {
     align-items: center;
     padding-bottom: 1px;
     padding-left: 1px;
-  }
+}
+
+/* 
+                                           
+                           ,,              
+`7MMM.     ,MMF'           db              
+  MMMb    dPMM                             
+  M YM   ,M MM   ,6"Yb.  `7MM  `7MMpMMMb.  
+  M  Mb  M' MM  8)   MM    MM    MM    MM  
+  M  YM.P'  MM   ,pm9MM    MM    MM    MM  
+  M  `YM'   MM  8M   MM    MM    MM    MM  
+.JML. `'  .JMML.`Moo9^Yo..JMML..JMML  JMML.
+                                           
+                                           
+ */
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -272,6 +309,7 @@ a {
 }
 
 /****** Hebergements ***********/
+
 .hebergements {
     width: 65%;
     background-color: var(--main-bg-color);
@@ -335,7 +373,9 @@ a {
     font-weight: 700;
     display: inline-block
 }
+
 /****** Populaires ***********/
+
 .populaires {
     width: 32%;
     background-color: var(--main-bg-color);
@@ -432,17 +472,31 @@ a {
     margin: 20px 19px 20px 19px;
 }
 
-/****** Footer ***********/
+/*
+                                                         
+                                                         
+`7MM"""YMM                       mm                      
+  MM    `7                       MM                      
+  MM   d    ,pW"Wq.   ,pW"Wq.  mmMMmm   .gP"Ya  `7Mb,od8 
+  MM""MM   6W'   `Wb 6W'   `Wb   MM    ,M'   Yb   MM' "' 
+  MM   Y   8M     M8 8M     M8   MM    8M""""""   MM     
+  MM       YA.   ,A9 YA.   ,A9   MM    YM.    ,   MM     
+.JMML.      `Ybmd9'   `Ybmd9'    `Mbmo  `Mbmmd' .JMML.   
+                                                         
+                                                         
+*/
 
 .section-footer {
     background-color: var(--main-bg-color);
     display:flex;
     flex-direction:row;
 }
+
 .a-propos {
     padding: 20px 20px 20px 20px;
     width: 100%;
 }
+
 .column-list li {
     list-style-type: none;
 }
@@ -455,25 +509,39 @@ a {
 ul {
     padding: 0;
     margin: 15px;
-  }
+}
 
-/* Le code ci-dessous correspond à la version responsive uniquement */
+/*
+                                                                                                                         
+                                ,,    ,,                                                            ,,                   
+`7MMM.     ,MMF'              `7MM    db                 .g8""8q.                                   db                   
+  MMMb    dPMM                  MM                     .dP'    `YM.                                                      
+  M YM   ,M MM   .gP"Ya    ,M""bMM  `7MM   ,6"Yb.      dM'      `MM `7MM  `7MM   .gP"Ya  `7Mb,od8 `7MM   .gP"Ya  ,pP"Ybd 
+  M  Mb  M' MM  ,M'   Yb ,AP    MM    MM  8)   MM      MM        MM   MM    MM  ,M'   Yb   MM' "'   MM  ,M'   Yb 8I   `" 
+  M  YM.P'  MM  8M"""""" 8MI    MM    MM   ,pm9MM      MM.      ,MP   MM    MM  8M""""""   MM       MM  8M"""""" `YMMMa. 
+  M  `YM'   MM  YM.    , `Mb    MM    MM  8M   MM      `Mb.    ,dP'   MM    MM  YM.    ,   MM       MM  YM.    , L.   I8 
+.JML. `'  .JMML. `Mbmmd'  `Wbmd"MML..JMML.`Moo9^Yo.      `"bmmd"'     `Mbod"YML. `Mbmmd' .JMML.   .JMML. `Mbmmd' M9mmmP' 
+                                                             MMb                                                         
+                                                              `bood'                                                     
+*/
 
-/****** Media queries ***********/
+
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .filterBar {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 20px;
-      }
+    }
+      
     .filterBar__nav button {
         font-size: 16px;
     }
 
     .hebergements-and-populaires {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .hebergements {
@@ -515,6 +583,10 @@ ul {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
+/* Header */
+
+    /* Frame */
     .frame {
         display: flex;
         flex-direction: column;
@@ -522,6 +594,10 @@ ul {
         align-items: center;
         width: 100%;
 
+    }
+
+    .frame__logo {
+        margin: 30px;
     }
 
     .frame__menu {
@@ -553,105 +629,28 @@ ul {
         padding-top: 0px;
     }
 
-    .frame__logo {
-        margin: 30px;
-    }
-    .filterBar__nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 15px;
-        height: 100%;
-        width: 100%;
-      }
-    .filterBar__nav button {
-        font-size: 14px;
-        height: 50px;
-      }
-
-    .section-footer {
-        display:flex;
-        flex-direction:column;
-        gap: 10px;
-    }
-
-    .main-container {
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 35px;
-    }
-    
     .other_header {
         padding: 0 20px 0 20px;
     }
 
-    .hebergements-and-populaires section {
-        border-radius: 0px;
-        padding: 30px 20px;
-    }
-
-    .hebergements-and-populaires .hebergements {
-        padding: 20px 20px;
-    }
-
-    .hebergements-and-populaires {
+    /* FilterBar */
+    .filterBar__nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: ;
         gap: 15px;
+        height: 100%;
+        width: 100%;
+    }
+    .filterBar__nav button {
+        font-size: 14px;
+        height: 50px;
     }
 
-    .hebergements {
-        background-color: initial;
-    }
-
-    .populaires {
-        margin-top: 0px;
-    }
-
-    .populaires-cards {
-        display: block;
-    }
-
-    .populaires-cards .card {
-        margin-top: 15px;
-    }
-
-    .main-cards {
-        display: block;
-    }
-
-    .main-cards .card {
-        margin-top: 15px;
-    }
-
-    .activites {
-        padding: 30px 30px 30px 30px;
-
-    }
-
-    .activites-cards {
-        display: block;
-    }
-
-    .activites-cards .card {
-        margin-bottom: 15px;
-    }
-
-    .column-list {
-        width: initial;
-        padding: 0;
-    }
-
-    .a-propos {
-        width: initial;
-    }
-
+    /* SearchBar */
     .searchBar {
         display: flex;
         justify-content: center;
-    }
-
-    .more a {
-        margin-top: 15px;
     }
 
     .searchBar input[type="button"]  {
@@ -678,5 +677,84 @@ ul {
 
     .btn .fa-solid {
         color: white;
+    }
+/* Main */
+    .main-container {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    /* Hébergements & Populaires */
+    .hebergements-and-populaires section {
+        border-radius: 0px;
+        padding: 30px 20px;
+    }
+
+    .hebergements-and-populaires {
+        gap: 15px;
+        flex-direction: column-reverse;
+    }
+    /* Hébergements */
+    .hebergements-and-populaires .hebergements {
+        padding: 20px 20px;
+    }
+
+    .hebergements {
+        background-color: initial;
+    }
+
+    .main-cards {
+        display: block;
+    }
+
+    .main-cards .card {
+        margin-top: 15px;
+    }
+
+    /* Populaires */
+    .populaires {
+        margin-top: 0px;
+    }
+
+    .populaires-cards {
+        display: block;
+    }
+
+    .populaires-cards .card {
+        margin-top: 15px;
+    }
+    /* Activités */
+    .activites {
+        padding: 30px 30px 30px 30px;
+
+    }
+
+    .activites-cards {
+        display: block;
+    }
+
+    .activites-cards .card {
+        margin-bottom: 15px;
+    }
+
+    .more a {
+        margin-top: 15px;
+    }
+
+/* Footer */
+    .section-footer {
+        display:flex;
+        flex-direction:column;
+        gap: 10px;
+    }
+
+    .column-list {
+        width: initial;
+        padding: 0;
+    }
+
+    .a-propos {
+        width: initial;
     }
 }
