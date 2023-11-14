@@ -102,7 +102,7 @@ a {
 
 /*** frame ***/
 
-.other_header {
+.header_container {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -499,7 +499,7 @@ a {
     margin: 0;
 }
 
-.a-propos {
+.section-footer-more {
     /* padding: 20px 20px 20px 20px; */
     width: 100%;
     padding: 20px;
@@ -648,7 +648,7 @@ ul {
         padding-top: 0px;
     }
 
-    .other_header {
+    .header_container {
         padding: 0 20px 0 20px;
     }
 
@@ -773,7 +773,7 @@ ul {
         padding: 0;
     }
 
-    .a-propos {
+    .section-footer-more {
         width: initial;
         padding: 0px;
     }
